@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <h1><strong>Home Page</strong></h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'realtime' %}">Real-time Tracking</a></li>
+            <li><a href="{% url 'closest' %}">Closest Transport</a></li>
+            <li><a href="{% url 'authentication' %}">User Authentication</a></li>
+            <li><a href="{% url 'Dashboard' %}">Dashboard</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Dashboard</title>
+</head>
+<body>
+    <h1>Farmer Dashboard Page</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'post_request' %}">Post Transportation Request</a></li>
+            <li><a href="{% url 'view_transport_history' %}">View Transportation History</a></li>
+            <li><a href="{% url 'view_product_listings' %}">View Product Listings</a></li>
+            <li><a href="{% url 'market_analysis' %}">Market Analysis</a></li> 
+        </ul>
+    </nav>
+</body>
+</html>

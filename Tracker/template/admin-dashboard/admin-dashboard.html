@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <h1>Admin Dashboard Page</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'manage_users' %}">Manage Users</a></li>
+            <li><a href="{% url 'manage_products' %}">Manage Products</a></li>
+            <li><a href="{% url 'manage_requests' %}">Manage Transportation Requests</a></li>
+            <li><a href="{% url 'analytics' %}">Analytics Dashboard</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,20 @@
+# Ignore virtual environment
+venv/
+
+# Ignore database
+*.sqlite3
+
+# Ignore static files directory
+staticfiles/
+
+# Ignore media files directory
+media/
+
+# Ignore secret settings file (e.g., local settings with sensitive information)
+local_settings.py
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.pyc
+__pycache__/

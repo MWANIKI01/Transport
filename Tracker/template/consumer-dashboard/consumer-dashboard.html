@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Dashboard</title>
+</head>
+<body>
+    <h1>Consumer Dashboard</h1>
+    <ul>
+        <li><a href="{% url 'browse_products' %}">Browse Products</a>
+            <ul>
+                <li><a href="{% url 'product_details_consumer' %}">Product Details</a></li>
+                <li><a href="{% url 'add_to_cart' %}">Add to Cart</a></li>
+                <li><a href="{% url 'checkout_consumer' %}">Checkout</a></li>
+            </ul>
+        </li>
+        <li><a href="{% url 'view_order_history' %}">View Order History</a></li>
+        <li><a href="{% url 'manage_profile' %}">Manage Profile</a></li>
+    </ul>
+</body>
+</html>
